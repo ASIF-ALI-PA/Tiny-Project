@@ -6,5 +6,7 @@ public class tinyproject {
         System.out.println("WELCOME TO SIMELABS ");
         System.out.print("Enter your Name: ");
         String name=scanner.next();
+        System.out.print("Enter Your age: ");
+        int age = scanner.nextInt();
     }
 }

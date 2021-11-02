@@ -8,5 +8,8 @@ public class tinyproject {
         String name=scanner.next();
         System.out.print("Enter Your age: ");
         int age = scanner.nextInt();
+        System.out.println("Enter your Qualification: ");
+        String Qualfication=scanner.next();
+        
     }
 }

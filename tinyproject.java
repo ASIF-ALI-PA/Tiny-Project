@@ -1,3 +1,5 @@
+import jdk.internal.vm.vector.VectorSupport;
+
 import java.util.Scanner;
 
 public class tinyproject {
@@ -10,6 +12,11 @@ public class tinyproject {
         int age = scanner.nextInt();
         System.out.println("Enter your Qualification: ");
         String Qualfication=scanner.next();
-        
+
+        System.out.println("enter your stream");
+        String stream = scanner.next();
+        System.outprintln("enter you cgpa");
+        double cgpa = scanner.nextDouble();
+
     }
 }

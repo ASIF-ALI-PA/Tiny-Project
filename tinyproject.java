@@ -14,7 +14,7 @@ public class tinyproject {
         String collegename=scanner.next();
         System.out.println("enter your stream");
         String stream = scanner.next();
-        System.outprintln("enter you cgpa");
+        System.out.println("enter you cgpa");
         double cgpa = scanner.nextDouble();
         
     }

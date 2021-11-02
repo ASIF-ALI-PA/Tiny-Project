@@ -16,6 +16,15 @@ public class tinyproject {
         String stream = scanner.next();
         System.out.println("enter you cgpa");
         double cgpa = scanner.nextDouble();
+        System.out.println("Enter year of passout: ");
+        int yearOfPassout= scanner.nextInt(); 
+        
+        if(yearOfPassout==2021 && cgpa>=7)
+        {
+        	System.out.println("You are eligible to attend Interview");
+        }else {
+        	System.out.println("You are not eligible to attend Interview");
+     }
         
     }
 }
